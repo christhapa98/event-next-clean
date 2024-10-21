@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import useLogin from '../hook/useLogin';
-import { Input } from '@/common/components/ui/input';
+import { Input } from '@/common/components/ui/form/input';
 import { Label } from '@/common/components/ui/label';
 import { Button } from '@/common/components/ui/button';
 
