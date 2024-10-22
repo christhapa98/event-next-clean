@@ -1,4 +1,4 @@
-import Viewers from '@/modules/admin/event/viewers/presentation/viewers'
+import Viewers from '@/modules/admin/event/(manage)/viewers/presentation/viewers'
 import React from 'react'
 
 export default function ViewersPage() {

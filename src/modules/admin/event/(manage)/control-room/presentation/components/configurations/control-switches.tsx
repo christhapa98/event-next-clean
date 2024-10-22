@@ -17,10 +17,6 @@ export default function ControlSwitches() {
           <Switch />
         </div>
         <div className='flex gap-2 items-center'>
-          <Label>Polls</Label>
-          <Switch />
-        </div>
-        <div className='flex gap-2 items-center'>
           <Label>Support Chat</Label>
           <Switch />
         </div>

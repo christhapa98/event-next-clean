@@ -10,7 +10,7 @@ export default function EventNavbar({ title = true }: { title?: boolean }) {
 
     return (
         <div className={`${theme.theme === 'dark' ? 'bg-black' : 'bg-white'} border-b flex items-center justify-center sticky top-0 `}>
-            <div className='h-[60px] flex items-center justify-between max-w-5xl w-full'>
+            <div className='h-[60px] flex items-center justify-between max-w-7xl w-full'>
                 {title ? <h1 className='text-2xl font-bold'>Event</h1> : <div />}
                 <div className='space-x-4'>
                     <ModeToggle />

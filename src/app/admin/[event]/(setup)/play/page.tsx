@@ -1,4 +1,4 @@
-import PlayPageSetup from '@/modules/admin/event/play/presentation/play-setup'
+import PlayPageSetup from '@/modules/admin/event/(setup)/play/presentation/play-setup'
 import React from 'react'
 
 export default function PlaySetupPage() {

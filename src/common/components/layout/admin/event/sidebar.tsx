@@ -1,7 +1,7 @@
 "use client"
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from '@/common/components/ui/sidebar'
 import React from 'react'
-import { Info, Lock, Mail, Play, TowerControl, Users, Vote } from "lucide-react"
+import { Info, Lock, Mail, Play, TowerControl, UserRoundSearch, Users, UsersIcon, Vote } from "lucide-react"
 import Link from 'next/link'
 import { useParams } from 'next/navigation'
 
@@ -35,6 +35,11 @@ const items = (event: string) => [
         title: "Viewers",
         url: "viewers",
         icon: Users,
+    },
+    {
+        title: "Moderators",
+        url: "moderators",
+        icon: UsersIcon,
     },
     {
         title: "Email Configuration",

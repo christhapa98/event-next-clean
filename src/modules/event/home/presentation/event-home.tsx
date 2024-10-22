@@ -4,15 +4,13 @@ import EventPlayer from './components/player'
 
 export default function EventHome() {
     return (
-        <div>
-            <div className='h-[50vh] grid grid-cols-3 gap-8'>
-                <div className='col-span-2 space-y-4'>
-                    <EventPlayer />
-                    <h5 className='text-xl'>Albatross Nepal</h5>
-                </div>
-                <div>
-                    <PublicChat />
-                </div>
+        <div className='h-full flex gap-8 py-8'>
+            <div className='space-y-4 h-full overflow-y-scroll aspect-video'>
+                <EventPlayer />
+                <h5 className='text-xl'>Albatross Nepal</h5>
+            </div>
+            <div className='h-full overflow-y-scroll min-w-[300px]'>
+                <PublicChat />
             </div>
         </div>
     )
