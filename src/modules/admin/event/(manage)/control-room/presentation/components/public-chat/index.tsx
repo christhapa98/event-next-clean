@@ -1,4 +1,3 @@
-import { Input } from "@/common/components/ui/form/input"
 import {
     Sheet,
     SheetContent,
@@ -7,8 +6,9 @@ import {
     SheetTitle,
     SheetTrigger,
 } from "@/common/components/ui/sheet"
-import { MessageCircle, SendHorizonal } from "lucide-react"
+import { MessageCircle } from "lucide-react"
 import PublicChatList from "./list"
+import SendInput from "@/common/components/ui/chat/send-input"
 
 export function PublicChatDrawer() {
     return (
@@ -25,10 +25,7 @@ export function PublicChatDrawer() {
                 </SheetHeader>
                 <PublicChatList />
                 <SheetFooter>
-                    <div className="flex gap-2 relative w-full border border-slate-500">
-                        <Input className="border-0 grow"/>
-                        <SendHorizonal className="absolute right-2 top-2" />
-                    </div>
+                    <SendInput />
                 </SheetFooter>
             </SheetContent>
         </Sheet>

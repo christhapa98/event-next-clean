@@ -1,3 +1,4 @@
+import SendInput from "@/common/components/ui/chat/send-input"
 import {
     Sheet,
     SheetContent,
@@ -7,7 +8,7 @@ import {
 } from "@/common/components/ui/sheet"
 import { AlertCircle } from "lucide-react"
 
-export function PublicMessageDrawer() {
+export function BroadcastMessageDrawer() {
     return (
         <Sheet>
             <SheetTrigger asChild>
@@ -20,9 +21,8 @@ export function PublicMessageDrawer() {
                 <SheetHeader>
                     <SheetTitle>Broadcast Message</SheetTitle>
                 </SheetHeader>
-                <div className="h-full overflow-y-scroll grow">
-
-                </div>
+                <div className="grow h-full overflow-y-scroll"></div>
+                <SendInput />
             </SheetContent>
         </Sheet>
     )

@@ -2,7 +2,7 @@ import React from 'react'
 import { PublicChatDrawer } from './public-chat'
 import { PollsDrawer } from './polls/polls'
 import { SupportDrawer } from './support/support'
-import { PublicMessageDrawer } from './public-message'
+import { BroadcastMessageDrawer } from './broadcast-message'
 
 export default function ControlAction() {
     return (
@@ -11,7 +11,7 @@ export default function ControlAction() {
                 <PublicChatDrawer />
                 <PollsDrawer />
                 <SupportDrawer />
-                <PublicMessageDrawer />
+                <BroadcastMessageDrawer />
             </div>
         </div>
     )

@@ -1,4 +1,4 @@
-import { Input } from '@/common/components/ui/form/input'
+import SendInput from '@/common/components/ui/chat/send-input'
 import React from 'react'
 
 export default function PublicChat() {
@@ -8,7 +8,7 @@ export default function PublicChat() {
             <div className='grow overflow-y-scroll h-full text-xs p-4 space-y-3' >
 
             </div>
-            <Input className='border-t' />
+            <SendInput/>
         </div>
     )
 }
