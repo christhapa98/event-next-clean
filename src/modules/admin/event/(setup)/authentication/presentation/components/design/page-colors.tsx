@@ -1,4 +1,4 @@
-import EventPageHeader from '@/common/components/ui/admin/page-header'
+import EventPageHeader from '@/common/components/ui/page-header'
 import ColorPicker from '@/common/components/ui/form/color-picker'
 import React, { Fragment } from 'react'
 

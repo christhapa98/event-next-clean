@@ -1,4 +1,4 @@
-import EventPageHeader from '@/common/components/ui/admin/page-header'
+import EventPageHeader from '@/common/components/ui/page-header'
 import { Input } from '@/common/components/ui/form/input'
 import { Label } from '@/common/components/ui/label'
 import React from 'react'

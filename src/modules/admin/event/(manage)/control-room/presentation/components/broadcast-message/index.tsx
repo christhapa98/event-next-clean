@@ -1,4 +1,4 @@
-import SendInput from "@/common/components/ui/chat/send-input"
+import SendInput from "@/common/components/chat/send-input"
 import {
     Sheet,
     SheetContent,

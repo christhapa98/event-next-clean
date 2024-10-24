@@ -8,7 +8,7 @@ import {
 } from "@/common/components/ui/sheet"
 import { MessageCircle } from "lucide-react"
 import PublicChatList from "./list"
-import SendInput from "@/common/components/ui/chat/send-input"
+import SendInput from "@/common/components/chat/send-input"
 
 export function PublicChatDrawer() {
     return (

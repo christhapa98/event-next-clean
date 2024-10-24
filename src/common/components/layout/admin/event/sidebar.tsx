@@ -53,7 +53,7 @@ export default function AdminSidebar() {
     return (
         <Sidebar className='shadow'>
             <SidebarContent className='h-full pb-8 py-4'>
-                <SidebarGroupLabel className='text-xl px-4 font-bold'>Event</SidebarGroupLabel>
+                <SidebarGroupLabel className='text-xl px-4 font-bold'><Link href={"/admin/"}>Event</Link></SidebarGroupLabel>
                 <SidebarGroup className='space-y-5 h-full'>
                     <SidebarGroupContent>
                         <SidebarMenu>

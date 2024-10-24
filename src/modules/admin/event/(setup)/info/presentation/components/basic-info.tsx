@@ -3,8 +3,8 @@ import ImageUploadLarge from '@/common/components/ui/form/image-upload-large'
 import { Label } from '@radix-ui/react-dropdown-menu'
 import React from 'react'
 import { Input } from '@/common/components/ui/form/input';
-import EventPageHeader from '@/common/components/ui/admin/page-header';
-import TextEditor from '@/common/components/ui/editor/editor';
+import EventPageHeader from '@/common/components/ui/page-header';
+import TextEditor from '@/common/components/editor/editor';
 
 export default function BasicInfo() {
   return (

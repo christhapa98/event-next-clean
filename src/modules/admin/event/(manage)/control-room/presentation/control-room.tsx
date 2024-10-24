@@ -1,4 +1,4 @@
-import EventPageHeader from '@/common/components/ui/admin/page-header'
+import EventPageHeader from '@/common/components/ui/page-header'
 import React from 'react'
 import ControlSwitches from './components/configurations/control-switches'
 import ControlAction from './components/control-action'

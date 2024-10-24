@@ -1,4 +1,4 @@
-import EventPageHeader from '@/common/components/ui/admin/page-header'
+import EventPageHeader from '@/common/components/ui/page-header'
 import React from 'react'
 import BasicInfo from './components/basic-info'
 import BrandingSettings from './components/branding-setting'

@@ -1,5 +1,5 @@
 "use client"
-import EventPageHeader from '@/common/components/ui/admin/page-header'
+import EventPageHeader from '@/common/components/ui/page-header'
 import ImageUploadLarge from '@/common/components/ui/form/image-upload-large'
 import { Input } from '@/common/components/ui/form/input'
 import { Label } from '@radix-ui/react-dropdown-menu'

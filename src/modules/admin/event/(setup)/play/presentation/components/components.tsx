@@ -1,4 +1,4 @@
-import EventPageHeader from '@/common/components/ui/admin/page-header'
+import EventPageHeader from '@/common/components/ui/page-header'
 import React from 'react'
 import { Button } from '@/common/components/ui/button'
 import { Switch } from '@/common/components/ui/form/switch'

@@ -1,4 +1,4 @@
-import Login from '@/modules/auth/presentation/login/login'
+import Login from '@/modules/auth/presentation/admin-login/login'
 import React from 'react'
 
 export default function LoginPage() {

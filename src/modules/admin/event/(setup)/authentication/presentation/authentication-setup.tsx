@@ -1,5 +1,5 @@
 "use client"
-import EventPageHeader from '@/common/components/ui/admin/page-header'
+import EventPageHeader from '@/common/components/ui/page-header'
 import React from 'react'
 import PageDesign from './components/design/page-design'
 import EventAuth from './components/auth/event-auth'

@@ -2,7 +2,7 @@
 "use client";
 import React, { useState, ChangeEvent, useEffect, useRef } from "react";
 import Image from "next/image";
-import { PlusIcon } from "lucide-react";
+import { EditIcon, PlusIcon, TrashIcon } from "lucide-react";
 
 export default function ImageUploadLarge({
     id,
@@ -94,19 +94,19 @@ export default function ImageUploadLarge({
                 <div className="absolute opacity-0 inset-0 flex justify-center items-center gap-12 bg-black bg-opacity-10 transition-opacity duration-300 group-hover:opacity-100">
                     <button
                         id={id + "-btn"}
-                        className="p-4 rounded-full transition ease-in-out duration-100"
+                        className="p-4 rounded-full transition ease-in-out duration-100 bg-white "
                         onClick={handleEditButtonClick}
                     >
-                        <Image width={20} height={20} alt="" src="/icons/edit.svg" />
+                        <EditIcon/>
                     </button>
                     <button
                         id={id + "-btn"}
-                        className="p-4  rounded-full transition ease-in-out duration-100"
+                        className="p-4  rounded-full transition ease-in-out duration-100 bg-white "
                         onClick={() => {
                             clearImage();
                         }}
                     >
-                        <Image width={20} height={20} alt="" src="/icons/delete.svg" />
+                       <TrashIcon/>
                     </button>
                 </div>
             )}

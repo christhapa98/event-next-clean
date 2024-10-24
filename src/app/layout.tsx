@@ -1,15 +1,17 @@
+import { getSession } from "next-auth/react";
 import "./globals.css";
 import Wrappers from "@/common/providers/wrappers";
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const session = await getSession()
   return (
     <html lang="en">
       <body>
-        <Wrappers>
+        <Wrappers session={session}>
           {children}
         </Wrappers>
       </body>

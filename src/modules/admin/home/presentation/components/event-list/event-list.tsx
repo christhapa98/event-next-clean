@@ -23,6 +23,7 @@ export default function EventList() {
             status: 'Upcoming'
         }
     ]
+    
     return (
         <Table>
             <TableCaption>List of Events</TableCaption>

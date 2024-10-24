@@ -1,0 +1,12 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.video-js .vjs-big-play-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
